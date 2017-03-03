@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PredictionSample</string>
+    <string name="title_activity_prediction">Activity Prediction Sample App</string>
+    <string name="when_it_is">When the day is</string>
+    <string name="when_it_is_time">and the time is</string>
+    <string name="and_the_weather_is">and the weather is</string>
+    <string name="user_is_at">and the user is at</string>
+    <string name="user_most_likely_will_be">The user will most likely be</string>
+    <string name="body_text_size">16dip</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="build_prediction_model">Build Prediction Model</string>
+</resources>

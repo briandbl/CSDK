@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+    android:columnCount="2"
+    android:rowCount="7"
+    android:paddingTop="32dp">
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+
+    <!--tools:context="com.intel.samples.predictionsample.PredictionActivity"-->
+    <!--tools:showIn="@layout/activity_prediction"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+
+    <!--<GridLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent">-->
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:text="@string/authenticate"
+        android:id="@+id/authButton"/>
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:text="@string/when_it_is"
+        android:id="@+id/when_it_is"/>
+        <!--android:layout_row="1"
+        android:layout_column="0"
+        android:textSize="@string/body_text_size"-->
+
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/daySpinnerItems"/>
+        <!--android:layout_row="1"
+        android:layout_column="1"
+        -->
+
+    <TextView
+        android:text="@string/when_it_is_time"
+        android:id="@+id/when_it_is_time"/>
+
+        <!--android:textSize="@string/body_text_size"-->
+
+    <Spinner
+        android:id="@+id/timeSpinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/timeSpinnerItems"/>
+
+
+    <TextView
+        android:text="@string/and_the_weather_is"
+        android:id="@+id/weather_is" />
+    <!--android:textSize="@string/body_text_size"-->
+
+
+
+    <Spinner
+        android:id="@+id/weatherSpinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/weatherSpinnerItems" />
+
+
+    <TextView
+        android:text="@string/user_is_at"
+        android:id="@+id/user_at" />
+        <!--android:textSize="@string/body_text_size"-->
+
+
+    <Spinner
+        android:id="@+id/placeSpinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/placeSpinnerItems"/>
+
+
+    <Button
+        android:text="@string/user_most_likely_will_be"
+        android:id="@+id/predictButton"/>
+
+    <TextView
+        android:id="@+id/prediction_is" />
+        <!--android:textSize="@string/body_text_size"-->
+
+    </GridLayout>
+

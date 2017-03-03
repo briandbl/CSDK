@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rules Learner Sample</string>
+    <string name="app_header">Context Sensing SDK Samples</string>
+    <string name="startSensingDaemonButton">1) Start Daemon</string>
+    <string name="startRulesButton">2) Start Rules Learner</string>
+    <string name="getRulesButton">3) Get Rules</string>
+    <string name="stopRulesButton">4) Stop Rules Learner</string> 
+    <string name="stopSensingDaemonButton">5) Stop Daemon</string>
+
+</resources>

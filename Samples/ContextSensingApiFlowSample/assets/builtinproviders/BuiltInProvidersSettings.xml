@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Provider name="DEVICE_POSITION">
+    <ContextType>DEVICE_POSITION</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="SHAKING">
+    <ContextType>SHAKING</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="GLYPH">
+    <ContextType>GLYPH</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="INSTANT_ACTIVITY">
+    <ContextType>INSTANT_ACTIVITY</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="TAPPING">
+    <ContextType>TAPPING</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="GESTURE_EAR_TOUCH">
+    <ContextType>GESTURE_EAR_TOUCH</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="GESTURE_FLICK">
+    <ContextType>GESTURE_FLICK</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="LIFT">
+    <ContextType>LIFT</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>
+<Provider name="USER_DEFINED_GESTURE">
+    <ContextType>USER_DEFINED_GESTURE</ContextType>
+    <PushToCloudSensing>true</PushToCloudSensing>
+</Provider>

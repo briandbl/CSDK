@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Build_Prediction_model"
+        android:title="@string/build_prediction_model" />
+</menu>

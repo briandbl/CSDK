@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_btn_start_server"
+        android:title="@string/start_server_menu_btn_title"
+        android:icon="@android:drawable/ic_media_play"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/menu_btn_stop_server"
+        android:title="@string/stop_server_menu_btn_title"
+        android:icon="@android:drawable/ic_media_pause"
+        android:showAsAction="always"
+        android:visible="false"/>
+    
+    <item
+        android:id="@+id/menu_btn_inflate_train"
+        android:title="@string/train_menu_btn_title"
+        android:showAsAction="always">
+        <menu>
+    
+		    <item
+		        android:id="@+id/menu_btn_train_home"
+		        android:title="@string/trainHome_option"
+		        android:showAsAction="never"
+		        android:visible="true"/>
+		    
+		    <item
+		        android:id="@+id/menu_btn_train_work"
+		        android:title="@string/trainWork_option"
+		        android:showAsAction="never"
+		        android:visible="true"/>  
+	   </menu>
+    </item>
+</menu>

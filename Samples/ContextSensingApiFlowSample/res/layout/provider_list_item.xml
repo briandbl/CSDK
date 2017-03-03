@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/provider_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+    
+    	<CheckBox
+    	    android:id="@+id/provider_list_enabled_cbx"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="true"
+    	    android:checked="false"
+    	    android:clickable="true"
+    	    android:enabled="true"
+    	    android:gravity="center|right"
+    	    android:padding="5dp" />
+    
+        <TextView
+            android:id="@+id/provider_list_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/placeholderText"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/provider_list_enabled_cbx"
+            android:paddingRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/provider_list_item_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/provider_list_item_name"
+            android:layout_alignBottom="@+id/provider_list_item_name"
+            android:layout_toRightOf="@+id/provider_list_item_name"
+            android:gravity="right"
+            android:text="@string/providerStopped"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+        
+        <TextView 
+            android:id="@+id/provider_list_item_data"
+        	android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholderText"
+            android:layout_alignParentBottom="true" 
+            android:layout_below="@+id/provider_list_item_name"
+            android:layout_toRightOf="@+id/provider_list_enabled_cbx"   
+			/>
+        
+</RelativeLayout>
